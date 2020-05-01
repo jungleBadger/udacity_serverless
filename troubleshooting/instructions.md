@@ -59,11 +59,11 @@ Give the `./backend/serverless.yml` a quick visual inspection and check for YAML
 Check the `provider` key to make sure you are deploying in a region that makes sense to your account, and using the 
 desired runtime version.
 
-> `provider` key example
+##### `provider` key example
 > ![Provider image sample](./images/providerkey.jpg)
 
 ##### Resources
-* [Serverless provider documentation](https://www.serverless.com/framework/docs/providers/aws/guide/functions/)
+ * [Serverless provider documentation](https://www.serverless.com/framework/docs/providers/aws/guide/functions/)
 
 
 
@@ -132,14 +132,14 @@ serverless deploy --verbose
 
 You can check the logs from my deployment [here](./deploy.log)
 
-> Check the Serverless dashboard update
-![Serverless dashboard](./images/serverless.jpg)
+##### Check the Serverless dashboard update
+> ![Serverless dashboard](./images/serverless.jpg)
 
-> Check the AWS CloudFormation stack
-![AWS CloudFormation stack](./images/cloudform.jpg)
+##### Check the AWS CloudFormation stack
+> ![AWS CloudFormation stack](./images/cloudform.jpg)
 
-> Check the endpoint (auth failure expected)
-![Test endpoint](./images/authtest.jpg)
+##### Check the endpoint (auth failure expected)
+> ![Test endpoint](./images/authtest.jpg)
 
 
 #### Step 6 - Create `Auth0` setup
@@ -150,14 +150,14 @@ but I believe other types can work as well, but this is what I did.
 I won't be explaining much about `Auth0`, I will just share my details here, you MUST setup the redirect and CORS options
 otherwise this won't work as expected.
 
-> App basic info setup
-![Auth0 basic](./images/appbasic.jpg)
+##### App basic info setup
+> ![Auth0 basic](./images/appbasic.jpg)
 
-> App props setup
-![Auth0 basic](./images/apppros.jpg)
+##### App props setup
+> ![Auth0 basic](./images/apppros.jpg)
 
-> App URI setup
-![Auth0 basic](./images/appuri.jpg)
+##### App URI setup
+> ![Auth0 basic](./images/appuri.jpg)
 
 
 #### Step 7 - Configure the `Serverless` and `Auth0` info on frontend app
@@ -181,14 +181,14 @@ npm install
 npm start
 ```
 
-> Login page
-![Auth0 basic](./images/login.jpg)
+##### Login page
+> ![Auth0 basic](./images/login.jpg)
 
-> Functionalities
-![Auth0 basic](./images/features.jpg)
+##### Functionalities
+> ![Auth0 basic](./images/features.jpg)
 
-> Service usage
->![Service usage](./images/service.jpg)
+##### Service usage
+> ![Service usage](./images/service.jpg)
 
 
 ### Common issues to look out
