@@ -187,6 +187,9 @@ npm start
 > Functionalities
 ![Auth0 basic](./images/features.jpg)
 
+> Service usage
+>![Service usage](./images/service.jpg)
+
 
 ### Common issues to look out
 
